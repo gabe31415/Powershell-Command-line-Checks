@@ -1,5 +1,5 @@
 # AUTHOR: github username: gabe31415
-# Get OS version info
+# Get OS
 
 function GetOsNameFriendly
 {
