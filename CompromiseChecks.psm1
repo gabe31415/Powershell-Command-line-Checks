@@ -1,5 +1,7 @@
 # AUTHOR: github username: gabe31415
 # Do system compromise checks
+# 'Get-winevent' has an undocumented/bug limit of 23 events in the 'filterhashtable'
+#   to circumvent this, I chose to do each event check separately
 
 function Show-Menu
 {
