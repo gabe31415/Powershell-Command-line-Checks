@@ -33,6 +33,7 @@ function Show-Menu
     Write-Host ""
     Write-Host "C: Press 'C' for COMPROMISED SYSTEM checks"
     Write-Host "H: Press 'H' for Hardware checks"
+    Write-Host "O: Press 'O' for OS checks"
     Write-Host "Q: Press 'Q' to quit."
     Write-Host ""
 }
@@ -44,7 +45,8 @@ do
         switch ($selection)
         {
             'c' { DoCompromiseChecks }
-            'h' { DoHardwareChecks}
+            'h' { DoHardwareChecks }
+            'o' { DoOsChecks }
             'q' { return }
         }
         pause
